@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
 // API Routes
 app.use('/', tokenRoutes);
-app.use('/', employeeRoutes);
+app.use('/', paylocityRoutes);
 
 // Start Server
 const PORT = process.env.PORT || 3000;
